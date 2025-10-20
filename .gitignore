@@ -1,0 +1,7 @@
+# Python files
+modify_webflow_export.py
+*.pyc
+__pycache__/
+
+# macOS system files
+.DS_Store
