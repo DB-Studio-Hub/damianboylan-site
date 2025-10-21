@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Mon Oct 20 2025 21:14:21 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Oct 21 2025 11:34:46 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="688c814b5bbf5068ddc3d443" data-wf-site="688c814b5bbf5068ddc3d414">
 <head>
   <meta charset="utf-8">
@@ -35,6 +35,7 @@
 <link rel="icon" type="image/x-icon" href="db-favicon.ico">
 <link rel="apple-touch-icon" href="db-webclip.png">
 
+
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Syne&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet"></noscript>
 
@@ -50,6 +51,9 @@
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"></noscript>
 
+
+<!-- Google reCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </head>
 <body>
@@ -8386,9 +8390,7 @@ body > header:first-of-type {
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     var yearElem = document.getElementById("year");
-    if(yearElem) {
-      yearElem.textContent = new Date().getFullYear();
-    }
+    if(yearElem) { yearElem.textContent = new Date().getFullYear(); }
   });
 </script>
 
